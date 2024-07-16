@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 27, 27);
+    font-family:sans-serif;
+    border: none;   
+}
+html{
+    scroll-behavior: smooth;
+}
+#navigation{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 4rem;
+    padding: 1.2rem;
+    background-color: black ;
+    color: rgb(175, 53, 61);
+    border-bottom: 0.0625rem solid aliceblue;
+}
+#navigation a,li{
+     text-decoration: none; 
+     background-color: black;
+     color: rgb(107, 158, 55);
+     font-size: 1.8rem;
+}
+#navigation a:hover{
+    color: rgb(175, 53, 61);
+}
+#navigation p{
+    font-size:2.5rem;
+    background-color: black;
+    animation: ani 2s ease-in-out infinite;
+    font-weight: 300;
+}
+@keyframes ani {
+    0%{
+        color: rgb(175, 53, 61);
+    }
+
+    30%{
+        color: rgb(59, 197, 148);
+    }
+    60%{
+        color: rgb(186, 42, 136);
+    }
+    100%{
+        color: rgb(107, 212, 65);
+    }
+}
+.nav-items{
+    display: flex;
+    column-gap: 0.94rem;
+    justify-items: end;
+    background-color: black;
+    font-weight: 500;
+    
+}
+.nav-items li:hover{
+    text-decoration: underline 0.125rem rgb(78, 78, 78);
+    cursor: pointer;
+}
+ #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 45.5rem;
+    padding: 0.625rem;
+    border-bottom: 0.125rem solid rgb(0, 0, 0);
+}
+.description{
+    padding: 1.25rem;
+    font-size: 1.5625rem;
+    color: rgb(24, 163, 59);    
+}
+.description span{
+    font-weight: 700;
+}
+
+.name{
+    margin-block: 0.125rem;
+    font-size: 4.0rem;
+    font-weight: 400;
+    font-family:"Ga Maamli", sans-serif;
+    
+}
+
+.image{
+    height: 35.75rem;
+}
+ .image img{
+    height: 35.75rem;
+    position: relative;
+    left: 3.0rem;
+    top: 0rem;
+    border-radius: 50%;
+
+ }
+ .cv{
+    background-color: red;
+    border-radius: 0.625rem;
+    margin-top: 0.625rem;
+    color: rgb(235, 238, 241);
+    padding: 0.625rem;
+    font-size: 0.9375rem;
+}
+.con{
+    background-color: red;
+    border-radius: 0.625rem;
+    margin-top: 0.625rem;
+    color: rgb(235, 238, 241);
+    padding: 0.625rem;
+    position: relative;
+    left: 1.25rem;
+    font-size: 0.9375rem;
+}   
+
+.con:hover{
+    color: black;
+    background-color:grey;
+
+}
+
+.cv:hover{
+    color: black;
+    background-color:grey;
+}
+.fa-instagram{
+    font-size: 1.875rem;
+    color: rgb(209, 82, 156);
+}
+.fa-linkedin{
+    font-size: 1.875rem;
+    color: rgb(20, 9, 120); 
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+
+}
+.fa-facebook{
+    font-size: 1.875rem;
+    color: rgba(36, 13, 241, 0.942);
+}
+.description i:hover{
+    font-size: 3.125rem;
+}
+#about{
+    height: 87rem;
+    margin: 0.625rem;
+    padding: 1.875rem;
+    font-size: 1.5rem;
+    color: beige; 
+    border-bottom: 0.125rem solid rgb(0, 0, 0);
+  
+}
+#about p{
+    color: rgb(109, 54, 164); 
+    text-decoration: underline rgb(137, 137, 137);
+    font-family:"Ga Maamli", sans-serif;
+    font-size: 2.5rem;
+}
+.about_me span{
+    line-height: 3.125rem;
+}
+.about_me .skills{
+    color: rgb(109, 54, 164); 
+    
+}
+.about_me li{
+    margin: auto;
+    line-height: 1.97rem;
+    margin-left: 3.125rem;
+    color: rgb(109, 54, 164);
+    background-color: rgb(30, 27, 27);
+}
+#about .img1{
+    height: 18.5rem;
+}
+#about .img2{
+    height: 18.5rem;
+    background-color: aliceblue;  
+    border: none;
+    
+}
+.edu1{
+    height: 18.5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 0.125rem dotted bisque;
+}
+.edu1 span{
+    position: relative;
+    top: 4.375rem;
+    padding: 1.25rem;
+    color: beige;
+    height: 3.125rem;
+    line-height: 3.125rem;
+}
+
+.edu2{
+    height: 18.5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 0.125rem dotted bisque;   
+}
+.edu2 span{
+    position: relative;
+    top: 4.375rem;
+    padding: 1.25rem;
+    color: beige;
+    height: 3.125rem;  
+    line-height: 3.125rem; 
+}
+
+#social{
+    height: 30.25rem;
+    padding: 1.25rem;
+    border-bottom: 0.125rem solid rgb(0, 0, 0);
+
+}
+
+#social p{
+    text-align: center;
+    text-decoration: underline solid 3px rgb(235, 238, 241);
+    font-family:"Ga Maamli"; 
+    font-size: 2.5em;
+    color: blue;
+}
+#social p:hover,a:hover{
+    color: rgb(175, 53, 61);
+}
+#social i{
+    font-size: 12.75rem;
+}
+#social i:hover{
+    font-size:16.75rem ;
+}
+.s-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.s-links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+    color: aquamarine;
+    padding: 1.875rem;  
+}
+
+.project-head {
+    text-align: center;
+    text-decoration: underline solid 3px rgb(235, 238, 241);
+    font-family:"Ga Maamli"; 
+    font-size: 2.9em;
+    color: rgb(24, 163, 59); 
+}
+#projects{
+    width: 95%;
+    padding: 1.25rem;
+    border-bottom: 0.125rem solid black;
+}
+.p1,.p2,.p3{
+    height: 24.125rem;
+    border:none;
+    width:100%;
+    display: flex;
+    
+}
+.desc-p1 p{
+    padding: 0.625rem;
+}
+
+.desc-p2,.desc-p3,.desc-p1{
+    height: min-content;
+    font-size: 1.5rem;
+    color: aquamarine;
+    line-height:3.125rem;
+
+}
+.desc-p2 p{
+    padding: 0.625rem;
+}
+.desc-p3 p{
+    padding: 0.625rem;
+}
+.project1 img{
+    height: 22.125rem;
+    width: 20.8rem;
+    border: 0.5rem ridge rgb(6, 6, 6);
+    border-bottom-right-radius: 20%;
+}
+.project2 img{
+    height:21.125rem ;
+    width: 37rem;
+    border: 0.5rem ridge rgb(6, 6, 6);
+    
+}
+.project3 img{
+    height:21.125rem;
+    width: 37rem;
+    border: 0.4rem ridge rgb(9, 9, 9);
+    border-bottom-right-radius: 20%;   
+}
+
+#contact{
+    height: 56.5rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("black.jpg") no-repeat;
+    background-size:cover;  
+}
+
+form{
+     height: 46.5rem;
+     width: 45rem;
+    border: 0.25rem ridge rgb(30, 27, 27);  
+    background: transparent; 
+    backdrop-filter: blur(0.8rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 8rem;
+    border-radius: 3rem;
+    
+}
+.con-head{
+    text-align: center;
+    font-family:"Ga Maamli"; 
+    font-size: 2.9em;
+    color: beige;
+    background:transparent;
+     padding-top:1rem; 
+}
+.con-name{
+    height: min-content;
+    width: min-content;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.con-name i{
+    font-size: 3rem;
+    height:3.3rem ;
+    width: min-content;
+    color: beige;
+    background: transparent;
+}
+.con-name input{
+    height: 5rem;
+    width: min-content;
+    color: beige;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border:0.25rem ridge rgb(30, 27, 27);
+    background: transparent;
+    margin-inline: 2rem;
+    padding-inline: 0.5rem;
+}
+.con-name span{
+    color: beige;
+    font-size: 2rem;
+    background: transparent;
+}
+
+
+.con-mail{
+    height: min-content;
+    width: min-content;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.con-mail i{
+    font-size: 3rem;
+    height:3.3rem ;
+    width: min-content;
+    color: beige;
+    background: transparent;
+}
+.con-mail input{
+    height: 5rem;
+    width: min-content;
+    color: beige;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border:0.25rem ridge rgb(30, 27, 27);
+    background: transparent;
+    margin-inline: 2rem;
+    padding-inline: 0.5rem;
+}
+.con-mail span{
+    color: beige;
+    font-size: 2rem;
+    background: transparent;
+    width: min-content;
+}
+
+
+.con-message{
+    height: min-content;
+    width: min-content;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.con-message i{
+    font-size: 3rem;
+    height:3.3rem ;
+    width: min-content;
+    color: beige;
+    background: transparent;
+}
+.con-message textarea{
+    height: 5rem;
+    width: 20rem;
+    color: beige;
+    font-size: 1.5rem;
+    border:0.25rem ridge rgb(30, 27, 27);
+    background: transparent;
+    margin-inline: 2rem;
+    padding-inline: 0.5rem;
+}
+.con-message span{
+    color: beige;
+    font-size: 2rem;
+    background: transparent;
+    width: min-content;
+    
+}
+.send{
+    font-size: 2rem;
+    background: transparent;
+    border:0.25rem ridge rgb(30, 27, 27);
+    color: beige;
+    height: min-content;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.send:hover{
+    background-color: rgb(234, 52, 52);
+    color: black;
+}
+
+.form-foot{
+    background: transparent;
+}
+.form-foot span{
+    height: 2rem;
+    background: transparent;
+    font-size: 1.5rem;
+    position: relative;
+    top: 6rem;
+    color: beige;
+}
+
+.icon{
+    position: absolute;
+    right: 2rem;
+    height: min-content;
+    width: 2.5rem;
+    background-color: black;
+}
+.div1{
+    margin-block:0.5rem; 
+    border-radius: 20rem;
+    background-color: white;
+    height:0.25rem;
+}
+.div2{
+    margin-block:0.5rem; 
+    border-radius: 20rem;
+    background-color: white;
+    height:0.25rem;
+}
+
+.div3{
+    margin-block:0.5rem; 
+    border-radius: 20rem;
+    background-color: white;
+    height:0.25rem;
+}
+
+.icon.active .div1{
+    transform: translateY(0.1rem) rotate(50deg);
+    transition: 0.5s ease-in;
+}
+.icon.active .div2{
+    display: none;   
+}
+.icon.active .div3{
+    transform: translateY(-0.6rem)rotate(-50deg);
+    transition: 0.5s ease-in-out;
+}
+
+#home a{
+    text-decoration: none;
+    font-size:2.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+    color: rgb(107, 158, 55);
+}
+#home a:hover{
+    color: rgb(234, 52, 52);
+    text-decoration: underline 0.32rem solid beige;
+}
+.menu{
+    position: absolute;
+    right: 0rem;
+    top:-50rem;
+    border: 0.12rem ridge beige; 
+    width: 16rem;  
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    z-index: 1;
+    background: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(2rem);
+}
+

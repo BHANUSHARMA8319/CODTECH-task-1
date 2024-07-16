@@ -1,0 +1,419 @@
+
+@media (min-width: 1025px){
+     
+    html{
+        
+       font-size: 75%;
+   } 
+
+   .icon{
+    display: none;
+   }
+   .menu{
+    display: none;
+   }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+   html{
+        
+       font-size: 60%;
+   }
+    #about{
+       height: 90rem; 
+   } 
+   .icon{
+    display: none;
+   }
+   .menu{
+    display: none;
+   }
+
+}
+@media (min-width: 599px) and (max-width: 720px) {
+        
+   html{
+        
+       font-size: 60%;
+   }
+
+    #about{
+       height: 97rem; 
+   }
+   .image{
+    position: relative;
+    right: 2rem;
+   }
+   .edu1,.edu2{
+       height: 20.5rem;
+   } 
+   .img1{
+       width: 20.5rem;
+   }
+   #about .img2{
+       height: 20.5rem;
+       background-color: aliceblue;  
+       border: none;
+   }
+   .menu,.icon{
+    display: none;
+   }
+} 
+
+@media (min-width:437px) and (max-width:599px){
+   html{
+       font-size:55%;
+   }
+
+   #home{
+    height: 55rem;
+    display: inline;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .description{
+    text-align:center;
+   }
+   .image{
+    position: relative;
+    right: 2rem;
+   } 
+
+
+   #about{
+    height: 110rem;
+   } 
+   .nav-items{
+    display: none;
+   }
+   
+   .menu.active{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    top: 6.5rem;
+}
+    .edu1{
+        height: 21rem;
+    }
+    .edu2{
+        height: 24rem;
+    }
+    .img1,.img2{
+        width: 15rem;
+    }
+    .img2{
+        position: relative;
+        top: 3rem;
+    }
+
+    #projects{
+        height: 115rem;
+    }
+
+    .p1,.p2,.p3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .project2,.project3 {
+        position: relative;
+        top: 15rem;
+    }
+
+    .project3{
+        position: relative;
+        top: 23rem;       
+    }
+    .desc-p2,.desc-p3{
+        position: relative;
+        top: 15rem;       
+    }
+    .desc-p3{
+        position: relative;
+        top: 25rem;      
+    }
+}
+
+@media (min-width:359px) and (max-width:436px){
+    html{
+        font-size:55%;
+    }
+ 
+    #home{
+     height: 60rem;
+     display: inline;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+ 
+    .description{
+     text-align: center;
+    }
+ 
+    .image{
+     position: relative;
+     top: 1rem;
+     left: -3rem;
+    }
+ 
+ 
+    #about{
+     height: 142rem;
+    } 
+    .nav-items{
+     display: none;
+    }
+ 
+    .menu.active{
+     transition: 0.5s ease-in-out;
+     top: 6.5rem;
+ }
+     .edu1{
+         height: 35rem;
+     }
+     .edu2{
+         height: 36rem;
+     }
+     .img1,.img2{
+         width: 15rem;
+     }
+     .img2{
+         position: relative;
+         top: 8rem;
+     }
+     .img1{
+        position: relative;
+        top: 8rem;
+    }
+     #projects{
+         height: 115rem;
+     }
+ 
+     .p1,.p2,.p3{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+ 
+     .project2,.project3 {
+         position: relative;
+         top: 15rem;
+     }
+ 
+     .project3{
+         position: relative;
+         top: 23rem;       
+     }
+     .desc-p2,.desc-p3{
+         position: relative;
+         top: 15rem;       
+     }
+     .desc-p3{
+         position: relative;
+         top: 25rem;      
+     }   
+     
+     #contact{
+        margin: 0;
+        margin-top: 2rem;
+        padding: 0;
+        
+     }
+     form{
+        width: 40rem;
+     }
+
+     .con-name i{
+        font-size: 2rem;
+     }
+     .con-mail i{
+        font-size: 2rem;
+     }
+     .con-message i{
+        font-size: 2rem;
+     }
+     #social i{
+        font-size: 10.75rem;
+    }
+    #social i:hover{
+        font-size:14.75rem ;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:359px){
+    html{
+        font-size:55%;
+    }
+ 
+    #home{
+     height: 55rem;
+     display: inline;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+ 
+    .description{
+        position: relative;
+        bottom :3rem;
+        text-align: center;
+    }
+ 
+    .image{
+     height: 31rem;
+     position: relative;
+     top: 1rem;
+     right: 2.85rem;
+    }
+    .image img{
+        height: 30.75rem;
+    }
+ 
+    #about{
+     height: 160rem;
+    } 
+    .nav-items{
+     display: none;
+    }
+ 
+    .menu.active{
+     transition: 0.5s ease-in-out;
+     top: 6.5rem;
+    }
+    .edu_img{
+        display: flex;
+        flex-direction:column;
+    }
+
+     .edu1{
+        display: flex;
+        flex-direction:column; 
+        justify-content: center;  
+        align-items: center;    
+         height: 30rem;
+         border: none;
+     }
+     .edu2{
+        display: flex;
+        flex-direction:column; 
+        justify-content: center;
+        align-items: center;       
+         height: 36rem;
+         border: none;
+     }
+     .img1,.img2{
+         width: 20rem;
+     }
+     .img2{
+         position: relative;
+         top: -10rem;
+     }
+     .edu2 span{
+        position: relative;
+        top: 15rem;
+     }
+     .img1{
+        position: relative;
+        top: 3rem;      
+     }
+     .edu1 span{
+        position: relative;
+        top: 1rem;      
+     }
+
+     #social{
+        height: 27rem;
+     }
+     #social i{
+        font-size: 7rem;
+    }
+    #social i:hover{
+        font-size:10rem ;
+    }
+    .s-links{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+     #projects{
+         height: 125rem;
+     }
+ 
+     .p1,.p2,.p3{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+ 
+     .project2,.project3 {
+         position: relative;
+         top: 20rem;
+         width:28rem ;
+     }
+     .project2 img{
+        width:28rem ;
+     }
+
+    .project3 img{
+        width:28rem ;
+    }
+ 
+     .project3{
+         position: relative;
+         top: 33rem;       
+     }
+     .desc-p2,.desc-p3{
+         position: relative;
+         top: 20rem;       
+     }
+     .desc-p3{
+         position: relative;
+         top: 33rem;      
+     }   
+     
+     #contact{
+        margin: 1rem;      
+     }
+     form{
+        width: 30rem;
+        
+     }
+
+     .con-name i{
+        font-size: 2rem;
+     }
+     .con-mail i{
+        font-size: 2rem;
+     }
+     .con-message i{
+        font-size: 2rem;
+     }
+
+     .con-name span{
+        font-size: 1.5rem;
+     }
+     .con-mail span{
+        font-size: 1.5rem;
+     }
+     .con-message span{
+        font-size: 1.5rem;
+     }
+          
+     .con-message textarea{
+        width: min-content;
+     }
+    
+}
